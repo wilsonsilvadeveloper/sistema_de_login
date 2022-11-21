@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <title>Crie sua conta</title>
+</head>
+<body>
+
+    <header>
+        <h1>Crie sua conta</h1>
+    </header>
+
+    <main>
+        <section class="container">
+            <form>
+                <fieldset>
+                    <label for="nome" class="label">Nome Completo</label>
+                    <input type="text" name="nome" class="input" placeholder="Digite seu nome" id="nome">
+
+                    <label for="user" class="label">Nome de usuario</label>
+                    <input type="text" name="user" class="input" placeholder="Crie seu user name" id="user">
+
+                    <label for="email" class="label">Email</label>
+                    <input type="email" name="email" class="input" placeholder="E-mail" id="email">
+
+                    <label for="senha" class="label">Crie sua senha</label>
+                    <input type="password" name="senha" class="input" id="senha">
+
+                    <button type="button" id="submit" onclick="enviar()">Criar</button>
+                </fieldset>
+            </form>
+
+            <a href="../login/login.html" style="color: white;">Login</a>
+        </section>
+    </main>
+    
+</body>
+</html>
+
+<script src="./index.js" type="module"></script>
