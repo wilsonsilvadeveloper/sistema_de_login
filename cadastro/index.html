@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./login.css">
     <title>Crie sua conta</title>
 </head>
 <body>
@@ -14,7 +15,7 @@
     </header>
 
     <main>
-        <section class="container">
+        <section class="container" id="NewConta">
             <form>
                 <fieldset>
                     <label for="nome" class="label">Nome Completo</label>
@@ -33,11 +34,21 @@
                 </fieldset>
             </form>
 
-            <a href="../login/login.html" style="color: white;">Login</a>
+            <a href="../login/login.html" target="_blank" style="color: white;">Login</a>
+        </section>
+
+        <section class="container" id="login">
+            <form action="">
+                <fieldset>
+                    <input type="text" placeholder="user" id="usuarios" class="input">
+                    <input type="password" id="pass" class="input">
+                </fieldset>
+                
+            </form>
         </section>
     </main>
     
 </body>
 </html>
 
-<script src="./index.js" type="module"></script>
+<script src="./index.js"></script>
